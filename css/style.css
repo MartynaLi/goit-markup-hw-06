@@ -581,7 +581,7 @@ margin-bottom: 16px;
   padding-left: 38px; 
   color: var(--dark-color);
   background-color: transparent; 
-  border: 1px solid var(--dark-color); 
+  border: 1px solid rgba(46, 47, 66, 0.4); 
   border-radius: 4px; 
   outline: transparent; 
   transition-property: border-color;
@@ -624,9 +624,9 @@ margin-bottom: 16px;
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
-  color: var(--dark-color);
+  color: rgba(46, 47, 66, 0.4);
   background-color: transparent; 
-  border: 1px solid var(--dark-color); 
+  border: 1px solid rgba(46, 47, 66, 0.4); 
   border-radius: 4px; 
   outline: transparent; 
   transition-property: border-color;
@@ -656,7 +656,7 @@ margin-bottom: 16px;
 .contacts-privacy:checked + .contacts-label span {
   background-color: var(--pressed-state-color);
   border: none;
-  fill: var(--accent-color);
+  fill: var(--light-color);
 }
 
 .check-privacy {
