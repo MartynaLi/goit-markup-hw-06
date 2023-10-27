@@ -641,7 +641,7 @@ margin-bottom: 16px;
     border-color: var(--primary-brand-color);
 }
 .contacts-textarea::placeholder {
-    color: var(--dark-color);
+    color: rgba(46, 47, 66, 0.40);
 }
 
 .contancts-agreed {
